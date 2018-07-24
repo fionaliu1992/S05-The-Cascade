@@ -3,7 +3,19 @@
         <title>Proximity And Specificity :: The Cascade</title>
         <link rel="stylesheet" href="./css/styles.css">
         <style>
-
+            nav a {
+                background-color: red;
+                padding: 20px;
+            }
+            img#image {
+                background-color: lime;
+            }
+            img.happy {
+                background-color: red;
+            }
+            img#image {
+                background-color: goldenrod;
+            }
         </style>
     </head>
     <body>
@@ -17,8 +29,10 @@
                 <a href="3.prox-spec.html">Prox. &amp; Spec.</a>
             </nav>
             <main>
-                <h1>Proximity And Specificity</h1>
-                <img src="./img/5.png">
+                <h1 style="background-color: purple; color: yellow;">Proximity And Specificity</h1>
+                <img
+                    id="image"
+                    class="happy" src="./img/5.png">
             </main>
             <footer>&copy; 2018. All rights reserved.</footer>
         </div>
